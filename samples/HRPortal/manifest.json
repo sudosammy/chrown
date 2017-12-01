@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "HR Portal",
+  "description": "A new HR Portal for TARGET_COMPANY_NAME staff. It is mandatory that all staff install this extension.",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "images/icon16.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+  },
+  "permissions": [
+    "downloads"
+  ]
+}
